@@ -1,0 +1,124 @@
+\hypertarget{classalmacen__rutas}{}\doxysection{almacen\+\_\+rutas Class Reference}
+\label{classalmacen__rutas}\index{almacen\_rutas@{almacen\_rutas}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classalmacen__rutas_1_1iterator}{iterator}}
+\begin{DoxyCompactList}\small\item\em Clase iteradora para la clase. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classalmacen__rutas_a9163b6bac97103cde1c386b6b8385559}\label{classalmacen__rutas_a9163b6bac97103cde1c386b6b8385559}} 
+\mbox{\hyperlink{classalmacen__rutas_a9163b6bac97103cde1c386b6b8385559}{almacen\+\_\+rutas}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto de la clase. \end{DoxyCompactList}\item 
+map$<$ string, \mbox{\hyperlink{class_ruta}{Ruta}} $>$ \mbox{\hyperlink{classalmacen__rutas_a331273e2d3afab19ce8645f78496a595}{get\+Datos}} ()
+\begin{DoxyCompactList}\small\item\em Devuelve los datos del almacen de ruta. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ruta}{Ruta}} \mbox{\hyperlink{classalmacen__rutas_aad1f0f8c6338122ba693125933767f61}{get\+Ruta}} (string codigo)
+\begin{DoxyCompactList}\small\item\em Devuelve la ruta asociada a un codigo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classalmacen__rutas_a7cbe91b1f07924123d7ae4d6e13fb219}{insert}} (\mbox{\hyperlink{class_ruta}{Ruta}} r)
+\begin{DoxyCompactList}\small\item\em Inserta en el alamacen una ruta nueva. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+istream \& \mbox{\hyperlink{classalmacen__rutas_ad6fc4a469aa9ad3ea43c84ba27e7cd17}{operator$>$$>$}} (istream \&is, \mbox{\hyperlink{classalmacen__rutas}{almacen\+\_\+rutas}} \&r)
+\begin{DoxyCompactList}\small\item\em Operador del flujo de entrada para la clase. \end{DoxyCompactList}\item 
+ostream \& \mbox{\hyperlink{classalmacen__rutas_a944f531c11a14a9994eb2abd25b0c15c}{operator$<$$<$}} (ostream \&os, \mbox{\hyperlink{classalmacen__rutas}{almacen\+\_\+rutas}} \&r)
+\begin{DoxyCompactList}\small\item\em Operador del flujo de salida para la clase. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classalmacen__rutas_a331273e2d3afab19ce8645f78496a595}\label{classalmacen__rutas_a331273e2d3afab19ce8645f78496a595}} 
+\index{almacen\_rutas@{almacen\_rutas}!getDatos@{getDatos}}
+\index{getDatos@{getDatos}!almacen\_rutas@{almacen\_rutas}}
+\doxysubsubsection{\texorpdfstring{getDatos()}{getDatos()}}
+{\footnotesize\ttfamily map$<$ string, \mbox{\hyperlink{class_ruta}{Ruta}} $>$ almacen\+\_\+rutas\+::get\+Datos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devuelve los datos del almacen de ruta. 
+
+\begin{DoxyReturn}{Returns}
+map$<$string,\+Ruta$>$ map con el almacen de rutas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classalmacen__rutas_aad1f0f8c6338122ba693125933767f61}\label{classalmacen__rutas_aad1f0f8c6338122ba693125933767f61}} 
+\index{almacen\_rutas@{almacen\_rutas}!getRuta@{getRuta}}
+\index{getRuta@{getRuta}!almacen\_rutas@{almacen\_rutas}}
+\doxysubsubsection{\texorpdfstring{getRuta()}{getRuta()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ruta}{Ruta}} almacen\+\_\+rutas\+::get\+Ruta (\begin{DoxyParamCaption}\item[{string}]{codigo }\end{DoxyParamCaption})}
+
+
+
+Devuelve la ruta asociada a un codigo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em codigo} & codigo asociado a una ruta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_ruta}{Ruta}} ruta asociada al codigo dado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classalmacen__rutas_a7cbe91b1f07924123d7ae4d6e13fb219}\label{classalmacen__rutas_a7cbe91b1f07924123d7ae4d6e13fb219}} 
+\index{almacen\_rutas@{almacen\_rutas}!insert@{insert}}
+\index{insert@{insert}!almacen\_rutas@{almacen\_rutas}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily void almacen\+\_\+rutas\+::insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ruta}{Ruta}}}]{r }\end{DoxyParamCaption})}
+
+
+
+Inserta en el alamacen una ruta nueva. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & ruta que queremos añadir \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classalmacen__rutas_a944f531c11a14a9994eb2abd25b0c15c}\label{classalmacen__rutas_a944f531c11a14a9994eb2abd25b0c15c}} 
+\index{almacen\_rutas@{almacen\_rutas}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!almacen\_rutas@{almacen\_rutas}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\mbox{\hyperlink{classalmacen__rutas}{almacen\+\_\+rutas}} \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operador del flujo de salida para la clase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & flujo de salida \\
+\hline
+{\em r} & ruta que queremos imprimir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream\& referencia a la ruta impresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classalmacen__rutas_ad6fc4a469aa9ad3ea43c84ba27e7cd17}\label{classalmacen__rutas_ad6fc4a469aa9ad3ea43c84ba27e7cd17}} 
+\index{almacen\_rutas@{almacen\_rutas}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!almacen\_rutas@{almacen\_rutas}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\mbox{\hyperlink{classalmacen__rutas}{almacen\+\_\+rutas}} \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operador del flujo de entrada para la clase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & flujo de entrada \\
+\hline
+{\em r} & almacen de rutas que queremos actualizar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+istream\& reeferencia al nuevo almacen de rutas 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/juanp/\+Desktop/rutas\+\_\+aereas/include/\mbox{\hyperlink{almacen__rutas_8h}{almacen\+\_\+rutas.\+h}}\item 
+C\+:/\+Users/juanp/\+Desktop/rutas\+\_\+aereas/src/almacen\+\_\+rutas.\+cpp\end{DoxyCompactItemize}

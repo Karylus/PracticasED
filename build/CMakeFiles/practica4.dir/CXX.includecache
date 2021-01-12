@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Punto.h
+string
+-
+
+../include/Ruta.h
+vector
+-
+string
+-
+Punto.h
+../include/Punto.h
+
+../include/almacen_rutas.h
+Ruta.h
+../include/Ruta.h
+map
+-
+string
+-
+
+C:/Users/juanp/Desktop/rutas_aereas/src/almacen_rutas.cpp
+almacen_rutas.h
+C:/Users/juanp/Desktop/rutas_aereas/src/almacen_rutas.h
+Ruta.h
+C:/Users/juanp/Desktop/rutas_aereas/src/Ruta.h
+string
+-
+utility
+-
+iostream
+-
+

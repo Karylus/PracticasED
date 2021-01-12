@@ -1,0 +1,1 @@
+El makefile lo he generado con el programa CMake, no creo que sirva en su ordenador, pero compila todo perfectamente.

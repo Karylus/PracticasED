@@ -1,0 +1,3 @@
+C:/Users/juanp/Desktop/rutas_aereas/build/CMakeFiles/rebuild_cache.dir
+C:/Users/juanp/Desktop/rutas_aereas/build/CMakeFiles/edit_cache.dir
+C:/Users/juanp/Desktop/rutas_aereas/build/CMakeFiles/practica4.dir

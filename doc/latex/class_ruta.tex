@@ -1,0 +1,209 @@
+\hypertarget{class_ruta}{}\doxysection{Ruta Class Reference}
+\label{class_ruta}\index{Ruta@{Ruta}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_ruta_1_1iterator}{iterator}}
+\begin{DoxyCompactList}\small\item\em Clase iteradora para la clase. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ruta_a1020b0a24a1212f30f4f74284bec3597}\label{class_ruta_a1020b0a24a1212f30f4f74284bec3597}} 
+\mbox{\hyperlink{class_ruta_a1020b0a24a1212f30f4f74284bec3597}{Ruta}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto de la clase. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ruta_a230b04ba50b8390f1cb6f2a1e0a783ed}{Ruta}} (string cod, int lon)
+\begin{DoxyCompactList}\small\item\em Constructor por parametros de la clase. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ruta_ade53edf3946f9ba9ddd4f514dce8aa50}{Ruta}} (const \mbox{\hyperlink{class_ruta}{Ruta}} \&p)
+\begin{DoxyCompactList}\small\item\em Constructor de copia de la clase. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_ruta_a407810bac35b0ddeb62e58b68077c4ff}{get\+Codigo}} ()
+\begin{DoxyCompactList}\small\item\em Devuelve el codigo de la ruta. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_ruta_a4f661b7454609f88fc14c212bf3a0804}{get\+Longitud}} ()
+\begin{DoxyCompactList}\small\item\em Devuelve la longitud de la ruta. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_punto}{Punto}} $>$ \mbox{\hyperlink{class_ruta_a4b44a80393a130c42bef9cdf2b60d1a5}{get\+Puntos}} ()
+\begin{DoxyCompactList}\small\item\em Devuelve la lista de los puntos de la ruta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ruta_a0fded47289211a6bb8b144b66b246a67}{set\+Codigo}} (string cod)
+\begin{DoxyCompactList}\small\item\em Cambia el valor de la latitud. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ruta_a1037637ee19175540889dab56dfc2e3c}{set\+Longitud}} (double lon)
+\begin{DoxyCompactList}\small\item\em Cambia el valor de las paradas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ruta_aa40bdb6c036e11dfb0cd8d736cda4fc2}{set\+Puntos}} (vector$<$ \mbox{\hyperlink{class_punto}{Punto}} $>$ p)
+\begin{DoxyCompactList}\small\item\em Cambia el nombre. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+istream \& \mbox{\hyperlink{class_ruta_af41061e1e6f16203dd01cc80c6372c02}{operator$>$$>$}} (istream \&is, \mbox{\hyperlink{class_ruta}{Ruta}} r)
+\begin{DoxyCompactList}\small\item\em Operador del flujo de entrada para la clase. \end{DoxyCompactList}\item 
+ostream \& \mbox{\hyperlink{class_ruta_a4dbfce7dcdd8a2fc2ed13e93de1c6ef7}{operator$<$$<$}} (ostream \&os, \mbox{\hyperlink{class_ruta}{Ruta}} r)
+\begin{DoxyCompactList}\small\item\em Operador del flujo de salida para la clase. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_ruta_a230b04ba50b8390f1cb6f2a1e0a783ed}\label{class_ruta_a230b04ba50b8390f1cb6f2a1e0a783ed}} 
+\index{Ruta@{Ruta}!Ruta@{Ruta}}
+\index{Ruta@{Ruta}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{Ruta()}{Ruta()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Ruta\+::\+Ruta (\begin{DoxyParamCaption}\item[{string}]{cod,  }\item[{int}]{lon }\end{DoxyParamCaption})}
+
+
+
+Constructor por parametros de la clase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cod} & codigo de la ruta \\
+\hline
+{\em lon} & numero de paradas de la ruta \\
+\hline
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ruta_ade53edf3946f9ba9ddd4f514dce8aa50}\label{class_ruta_ade53edf3946f9ba9ddd4f514dce8aa50}} 
+\index{Ruta@{Ruta}!Ruta@{Ruta}}
+\index{Ruta@{Ruta}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{Ruta()}{Ruta()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Ruta\+::\+Ruta (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_ruta}{Ruta}} \&}]{p }\end{DoxyParamCaption})}
+
+
+
+Constructor de copia de la clase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & Objeto ruta que queremos copiar \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ruta_a407810bac35b0ddeb62e58b68077c4ff}\label{class_ruta_a407810bac35b0ddeb62e58b68077c4ff}} 
+\index{Ruta@{Ruta}!getCodigo@{getCodigo}}
+\index{getCodigo@{getCodigo}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{getCodigo()}{getCodigo()}}
+{\footnotesize\ttfamily string Ruta\+::get\+Codigo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devuelve el codigo de la ruta. 
+
+\begin{DoxyReturn}{Returns}
+string codigo de la ruta 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ruta_a4f661b7454609f88fc14c212bf3a0804}\label{class_ruta_a4f661b7454609f88fc14c212bf3a0804}} 
+\index{Ruta@{Ruta}!getLongitud@{getLongitud}}
+\index{getLongitud@{getLongitud}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{getLongitud()}{getLongitud()}}
+{\footnotesize\ttfamily int Ruta\+::get\+Longitud (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devuelve la longitud de la ruta. 
+
+\begin{DoxyReturn}{Returns}
+int numero de paradas de la ruta 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ruta_a4b44a80393a130c42bef9cdf2b60d1a5}\label{class_ruta_a4b44a80393a130c42bef9cdf2b60d1a5}} 
+\index{Ruta@{Ruta}!getPuntos@{getPuntos}}
+\index{getPuntos@{getPuntos}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{getPuntos()}{getPuntos()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_punto}{Punto}} $>$ Ruta\+::get\+Puntos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devuelve la lista de los puntos de la ruta. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Punto$>$ coordenadas de las paradas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ruta_a0fded47289211a6bb8b144b66b246a67}\label{class_ruta_a0fded47289211a6bb8b144b66b246a67}} 
+\index{Ruta@{Ruta}!setCodigo@{setCodigo}}
+\index{setCodigo@{setCodigo}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{setCodigo()}{setCodigo()}}
+{\footnotesize\ttfamily void Ruta\+::set\+Codigo (\begin{DoxyParamCaption}\item[{string}]{cod }\end{DoxyParamCaption})}
+
+
+
+Cambia el valor de la latitud. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cod} & nuevo codigo de la ruta \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ruta_a1037637ee19175540889dab56dfc2e3c}\label{class_ruta_a1037637ee19175540889dab56dfc2e3c}} 
+\index{Ruta@{Ruta}!setLongitud@{setLongitud}}
+\index{setLongitud@{setLongitud}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{setLongitud()}{setLongitud()}}
+{\footnotesize\ttfamily void Ruta\+::set\+Longitud (\begin{DoxyParamCaption}\item[{double}]{lon }\end{DoxyParamCaption})}
+
+
+
+Cambia el valor de las paradas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lon} & paradas que deseamos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ruta_aa40bdb6c036e11dfb0cd8d736cda4fc2}\label{class_ruta_aa40bdb6c036e11dfb0cd8d736cda4fc2}} 
+\index{Ruta@{Ruta}!setPuntos@{setPuntos}}
+\index{setPuntos@{setPuntos}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{setPuntos()}{setPuntos()}}
+{\footnotesize\ttfamily void Ruta\+::set\+Puntos (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_punto}{Punto}} $>$}]{p }\end{DoxyParamCaption})}
+
+
+
+Cambia el nombre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & vector$<$\+Punto$>$ p nueva lista de paradas \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_ruta_a4dbfce7dcdd8a2fc2ed13e93de1c6ef7}\label{class_ruta_a4dbfce7dcdd8a2fc2ed13e93de1c6ef7}} 
+\index{Ruta@{Ruta}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\mbox{\hyperlink{class_ruta}{Ruta}}}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operador del flujo de salida para la clase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & flujo de salida \\
+\hline
+{\em r} & ruta que queremos imprimir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream\& referencia a la ruta impresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ruta_af41061e1e6f16203dd01cc80c6372c02}\label{class_ruta_af41061e1e6f16203dd01cc80c6372c02}} 
+\index{Ruta@{Ruta}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Ruta@{Ruta}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\mbox{\hyperlink{class_ruta}{Ruta}}}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Operador del flujo de entrada para la clase. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & flujo de entrada \\
+\hline
+{\em r} & ruta que queremos actualizar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+istream\& referencia a la ruta actualizada 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/juanp/\+Desktop/rutas\+\_\+aereas/include/\mbox{\hyperlink{_ruta_8h}{Ruta.\+h}}\item 
+C\+:/\+Users/juanp/\+Desktop/rutas\+\_\+aereas/src/Ruta.\+cpp\end{DoxyCompactItemize}
